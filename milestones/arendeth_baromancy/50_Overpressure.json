@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_overpressure",
+	"name": "Overpressure",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_overpressure"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

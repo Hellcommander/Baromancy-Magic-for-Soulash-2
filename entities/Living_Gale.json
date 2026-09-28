@@ -1,0 +1,236 @@
+{
+	"ability_user": [
+		"arendeth_baromancy_form_gale_claw",
+		"arendeth_baromancy_form_jetstream",
+		"arendeth_baromancy_form_draft_step",
+		"arendeth_baromancy_form_inhale",
+		"arendeth_baromancy_form_shear_nova",
+		"arendeth_baromancy_form_needling_winds",
+		"arendeth_baromancy_form_updraft",
+		"arendeth_baromancy_form_slipstream",
+		"arendeth_baromancy_form_heart_gale",
+		"5",
+		"46"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 50,
+		"fire": 5,
+		"frost": 10,
+		"holy": 3,
+		"parry": 8,
+		"physical": 10,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"core_2_shear",
+			"core_2_pray",
+			"15",
+			"core_2_catch_animal",
+			"10",
+			"4",
+			"core_2_pickpocket",
+			"core_2_rob",
+			"7",
+			"6",
+			"19",
+			"17",
+			"core_2_rummage",
+			"core_2_water_plants",
+			"3",
+			"core_2_woodbend",
+			"1",
+			"core_2_deconstruct",
+			"core_2_wish",
+			"12",
+			"core_2_carve"
+		],
+		"behaviors": [
+			4,
+			3,
+			12,
+			9,
+			16
+		],
+		"enemies": []
+	},
+	"background": {
+		"color": [
+			0,
+			0,
+			0
+		],
+		"noise": 54
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"background",
+		"collidable",
+		"consumer",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "2533",
+	"description": "You are a living pressure mass. Gale Claw, Jetstream, Draft Step, Inhale, Shear Nova, Needling Winds, Updraft, Slipstream, and Heart of the Gale.",
+	"dialogues": [
+		"634"
+	],
+	"equipment": {
+		"custom_slots": [
+			"core_2_soul"
+		],
+		"disabled_slots": [
+			0,
+			1,
+			3,
+			5,
+			6,
+			9,
+			12,
+			13,
+			14,
+			15
+		]
+	},
+	"experience_gainer": {
+		"exp": 40,
+		"level": 50
+	},
+	"fighter": {
+		"attackNames": [
+			"Gale Claw"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 3433
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 3434
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 3435
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 3436
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 400,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_baromancy_air_form",
+	"minimap_pixel": [
+		190,
+		215,
+		230
+	],
+	"moveable": {
+		"speed": 0.6000000238418579
+	},
+	"name": "Living Gale",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 14,
+		"threesixty": true
+	},
+	"skills": {
+		"milestones": [],
+		"skills": [
+			"arendeth_baromancy",
+			"core_2_leadership",
+			"core_2_thievery",
+			"core_2_stormthrowing",
+			"core_2_adventuring",
+			"core_2_economy",
+			"core_2_imbuing"
+		]
+	},
+	"stamina": {
+		"fatigue": 300,
+		"stamina": 160,
+		"stamina_regen": 0.5
+	},
+	"statistics": {
+		"dexterity": [
+			20,
+			20
+		],
+		"endurance": [
+			35,
+			35
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 5.0,
+		"hearing": 45,
+		"intelligence": [
+			56,
+			56
+		],
+		"magic_power": 20,
+		"sneaking": 35,
+		"strength": [
+			37,
+			42
+		],
+		"willpower": [
+			24,
+			24
+		]
+	},
+	"tags": [
+		"3",
+		"9"
+	]
+}

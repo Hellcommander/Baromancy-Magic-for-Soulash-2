@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_book_of_baromancy",
+	"name": "Book of Baromancy",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_baromancy_book_of_baromancy"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

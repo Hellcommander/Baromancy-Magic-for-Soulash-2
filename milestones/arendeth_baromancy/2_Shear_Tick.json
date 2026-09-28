@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_shear_tick",
+	"name": "Shear Tick",
+	"requirements": {
+		"milestones": [],
+		"skill": 2
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_shear_tick"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

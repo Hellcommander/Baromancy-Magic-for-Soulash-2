@@ -1,0 +1,26 @@
+{
+	"animation": "arendeth_baromancy_wind_veil",
+	"cast_time": 0.30000001192092896,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "Compress the air around your body for ::duration turns: faster strikes, faster movement, and missile deflection.",
+	"duration": 6.0,
+	"effects": {
+		"attack_speed": -0.20000000298023224,
+		"deflection": 0.4000000059604645,
+		"movement_speed": -0.15000000596046448
+	},
+	"id": "arendeth_baromancy_form_slipstream",
+	"image": 4,
+	"name": "Slipstream",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"defensive": 2,
+		"utility": 2
+	},
+	"target": "self"
+}

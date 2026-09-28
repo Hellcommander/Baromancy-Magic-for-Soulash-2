@@ -1,0 +1,26 @@
+{
+	"animation": "arendeth_baromancy_eye_of_the_storm",
+	"cast_time": 0.6000000238418579,
+	"cooldown": 24.0,
+	"cost": {
+		"health": 0,
+		"stamina": 10
+	},
+	"description": "A calm high-pressure cell on you for ::duration turns: missile deflection, magic deflection, and damage reduction.",
+	"duration": 4.0,
+	"effects": {
+		"damage_reduce_percent": 0.15000000596046448,
+		"deflection": 0.5,
+		"magic_deflection": 1
+	},
+	"id": "arendeth_baromancy_eye_of_the_storm",
+	"image": 0,
+	"name": "Eye of the Storm",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"defensive": 2,
+		"utility": 2
+	},
+	"target": "self"
+}

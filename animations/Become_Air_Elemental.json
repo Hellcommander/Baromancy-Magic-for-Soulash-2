@@ -1,0 +1,189 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_baromancy_become_air_elemental",
+	"ignore_roof": true,
+	"name": "Become Air Elemental",
+	"particles": [
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 523
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 522
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 520
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 519
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 519
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 518
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 517
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 516
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 515
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 514
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 513
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"delay": 600.0,
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 524
+		},
+		{
+			"color": [
+				[
+					210,
+					228,
+					236,
+					255
+				]
+			],
+			"flags": 1024,
+			"on_impact": "arendeth_baromancy_become_air_elemental_hit",
+			"tile_id": 333,
+			"velocity": 20.0
+		}
+	],
+	"sound": {
+		"id": "62",
+		"volume": 100
+	}
+}

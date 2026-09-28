@@ -1,0 +1,25 @@
+{
+	"id": "arendeth_baromancy_become_air_elemental",
+	"name": "Become Living Gale",
+	"description": "Become a Living Gale for ::duration turns. Your skill bar is replaced with the form's wind-body kit: Gale Claw, Jetstream, Draft Step, Inhale, Shear Nova, Needling Winds, Updraft, Slipstream, and Heart of the Gale.",
+	"target": "self",
+	"range": 0,
+	"effects_keys": {
+		"transform": "arendeth_baromancy_air_form"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"duration": 25.0,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 0,
+		"utility": 1,
+		"defensive": 2
+	},
+	"animation": "arendeth_baromancy_become_air_elemental",
+	"image": 3
+}

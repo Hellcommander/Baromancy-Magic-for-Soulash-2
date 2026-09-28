@@ -1,0 +1,32 @@
+[
+	{
+		"id": "arendeth_baromancy_momentum",
+		"name": "Momentum",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "willpower",
+				"value": -1
+			}
+		],
+		"max_stacks": 6,
+		"apply_caster": false,
+		"duration": 8,
+		"description": "Pressure on the target. -1 willpower per stack, up to 6. Lasts 8 turns if not refreshed."
+	},
+	{
+		"id": "arendeth_baromancy_shear",
+		"name": "Shear",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "movement_speed",
+				"value": 0.025
+			}
+		],
+		"max_stacks": 5,
+		"apply_caster": false,
+		"duration": 4,
+		"description": "Turbulent pressure on the target. +0.025 movement time per stack (slower), up to 5. Lasts 4 turns if not refreshed."
+	}
+]

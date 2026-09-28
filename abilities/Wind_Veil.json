@@ -1,0 +1,27 @@
+{
+	"animation": "arendeth_baromancy_wind_veil",
+	"cast_time": 0.4000000059604645,
+	"cooldown": 16.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "Wrap yourself in shearing air for ::duration turns: deflect missiles and reduce incoming damage.",
+	"duration": 5.0,
+	"effects": {
+		"damage_reduce_percent": 0.10000000149011612,
+		"deflection": 0.33000001311302185,
+		"movement_speed": -0.10000000149011612,
+		"sight": 3
+	},
+	"id": "arendeth_baromancy_wind_veil",
+	"image": 2,
+	"name": "Wind Veil",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"defensive": 2,
+		"utility": 2
+	},
+	"target": "self"
+}

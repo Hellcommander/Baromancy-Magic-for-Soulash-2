@@ -1,0 +1,36 @@
+{
+	"animation": "arendeth_baromancy_tempest",
+	"cast_time": 0.6000000238418579,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"description": "Explode outward as a shear ring. Deals ::damage ::damage_type in ::aoe_range tiles, knocks back ::knockback, and applies Shear. Applies 2 more damage per stack of shear and avoids damaging party members.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 3,
+		"aoe_shape": 1,
+		"damage": [
+			6,
+			12
+		],
+		"damage_per_stacks": 2,
+		"damage_type": "physical",
+		"ignore_party": 1,
+		"knockback_damage_percent": 25.0,
+		"magic_power_damage": 1.100000023841858,
+		"stacker": "arendeth_baromancy_arendeth_baromancy_knockback",
+		"stacker_count": 2
+	},
+	"id": "arendeth_baromancy_form_shear_nova",
+	"image": 1,
+	"name": "Shear Nova",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"target": "aoe_self"
+}

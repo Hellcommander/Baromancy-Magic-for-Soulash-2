@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_momentum_overflow",
+	"name": "Momentum Overflow",
+	"requirements": {
+		"milestones": [],
+		"skill": 46
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_momentum_overflow"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,20 @@
+{
+	"animation": "arendeth_baromancy_wind_veil",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 8.0,
+	"effects": {
+		"magic_power_damage": 1.0,
+		"parry_chance": -1
+	},
+	"id": "arendeth_baromancy_Arendeth_momentum",
+	"name": "Arendeth_momentum",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"target": ""
+}

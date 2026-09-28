@@ -1,0 +1,36 @@
+{
+	"id": "arendeth_baromancy_form_heart_gale",
+	"name": "Heart of the Gale",
+	"description": "Your body becomes the storm cell. Deals ::damage ::damage_type in ::aoe_range tiles, immobilizes, and applies Shear.",
+	"target": "aoe_self",
+	"range": 0,
+	"cast_time": 0.9,
+	"cooldown": 16.0,
+	"animation": "arendeth_baromancy_eye_of_the_storm",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"effects": {
+		"damage": [
+			12,
+			20
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 1.3,
+		"aoe_range": 4,
+		"immobilize": 1,
+		"stacker_count": 2,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"stacker": "arendeth_baromancy_shear"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"skill": "arendeth_baromancy",
+	"duration": 0.0,
+	"image": 5
+}

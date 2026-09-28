@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_become_air_elemental",
+	"name": "Become Living Gale",
+	"requirements": {
+		"milestones": [],
+		"skill": 47
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_become_air_elemental"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

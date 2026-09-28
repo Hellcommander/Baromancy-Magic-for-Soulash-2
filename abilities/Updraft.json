@@ -1,0 +1,37 @@
+{
+	"id": "arendeth_baromancy_form_updraft",
+	"name": "Updraft",
+	"description": "A rising column hurls everyone in the cell. Deals ::damage ::damage_type, knocks back ::knockback tiles (bonus if they hit a wall), and applies Shear.",
+	"target": "aoe_target",
+	"range": 5,
+	"cast_time": 0.6,
+	"cooldown": 10.0,
+	"animation": "arendeth_baromancy_gust_push",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"effects": {
+		"damage": [
+			4,
+			8
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 0.95,
+		"aoe_range": 2,
+		"knockback": 4,
+		"knockback_damage_percent": 30,
+		"stacker_count": 1,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"stacker": "arendeth_baromancy_shear"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"skill": "arendeth_baromancy",
+	"duration": 0.0,
+	"image": 3
+}

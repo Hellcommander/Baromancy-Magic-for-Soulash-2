@@ -1,0 +1,80 @@
+[
+	{
+		"id": "arendeth_baromancy",
+		"name": "Baromancy",
+		"image": 0,
+		"description": "Warp pressure gradients in the air \u2014 force, not an element. Physical cuts, knockbacks, and dashes. Apply Momentum and Shear to foes. Socket Unleash Momentum and Collapse Shear. Bind an Air Elemental, or become one. A Storm Elemental is the capstone summon.\n\nTrain at a Gale Collegium, by using abilities, or by walking.\n\nEvery level from 11 onward grants +1 statistic.\n\nLevel 30 grants Baromancy Mastery (+10% all attributes; stacks with other combat-branch masteries).",
+		"combat_skill": true,
+		"exp_sources": [
+			{
+				"id": "ability",
+				"rate": 2
+			},
+			{
+				"id": "walk",
+				"rate": 1
+			}
+		],
+		"stat_points": [
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50
+		],
+		"difficulty": 2,
+		"starting_gear": [
+			{
+				"first": {
+					"id": "186",
+					"amount": 1
+				}
+			},
+			{
+				"first": {
+					"id": "94",
+					"amount": 1
+				},
+				"second": {
+					"id": "96",
+					"amount": 1
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,37 @@
+{
+	"animation": "arendeth_baromancy_mini_tornado",
+	"cast_time": 0.800000011920929,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"description": "Spin a 3-tile pressure cell. Deals ::damage ::damage_type, leaves Shear Cells and applies Shear. The cells last for 10 turns they do not block movement but act as cc related summons.",
+	"duration": 4.0,
+	"effects": {
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 0.800000011920929,
+		"stacker": "arendeth_baromancy_Arendeth_wind_shear",
+		"stacker_count": 1,
+		"summon_count": 7
+	},
+	"effects_keys": {
+		"summon": "arendeth_baromancy_shear_cell"
+	},
+	"id": "arendeth_baromancy_mini_tornado",
+	"image": 5,
+	"name": "Mini Tornado",
+	"range": 5,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "aoe_tile"
+}

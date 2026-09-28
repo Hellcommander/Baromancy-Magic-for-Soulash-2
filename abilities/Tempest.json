@@ -1,0 +1,34 @@
+{
+	"animation": "arendeth_baromancy_tempest",
+	"cast_time": 1.0,
+	"cooldown": 22.0,
+	"cost": {
+		"health": 0,
+		"stamina": 14
+	},
+	"description": "A wide pressure collapse. Deals ::damage ::damage_type in a large radius, applies Shear, and fear (foes break and run).",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 3,
+		"aoe_shape": 1,
+		"damage": [
+			10,
+			16
+		],
+		"damage_type": "physical",
+		"fear": 2,
+		"magic_power_damage": 1.2000000476837158,
+		"stacker": "arendeth_baromancy_Arendeth_wind_shear",
+		"stacker_count": 2
+	},
+	"id": "arendeth_baromancy_tempest",
+	"image": 7,
+	"name": "Tempest",
+	"range": 6,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "aoe_target"
+}

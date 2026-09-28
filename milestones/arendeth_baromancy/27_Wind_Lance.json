@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_wind_lance",
+	"name": "Wind Lance",
+	"requirements": {
+		"milestones": [],
+		"skill": 27
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_wind_lance"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

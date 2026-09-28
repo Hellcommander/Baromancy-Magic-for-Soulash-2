@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_quick_cut",
+	"name": "Quick Cut",
+	"requirements": {
+		"milestones": [],
+		"skill": 7
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_quick_cut"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

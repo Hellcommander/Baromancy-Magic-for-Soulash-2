@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_eye_of_the_storm",
+	"name": "Eye of the Storm",
+	"requirements": {
+		"milestones": [],
+		"skill": 40
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_eye_of_the_storm"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,26 @@
+{
+	"animation": "arendeth_baromancy_gust_push",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"effect_per_stack": "arendeth_baromancy_Arendeth_momentum",
+		"knockback": 1,
+		"knockback_damage_percent": 1.0,
+		"magic_power_damage": 1.0,
+		"magic_to_weapon_damage": 1,
+		"stacker_to_dot": ""
+	},
+	"id": "arendeth_baromancy_arendeth_baromancy_knockback",
+	"image": 64,
+	"name": "arendeth_baromancy_knockback",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"target": "actor"
+}

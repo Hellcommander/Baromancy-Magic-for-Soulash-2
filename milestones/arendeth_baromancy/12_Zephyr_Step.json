@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_zephyr_step",
+	"name": "Zephyr Step",
+	"requirements": {
+		"milestones": [],
+		"skill": 12
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_zephyr_step"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

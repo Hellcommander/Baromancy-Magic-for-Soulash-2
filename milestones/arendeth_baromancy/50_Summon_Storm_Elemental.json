@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_summon_storm_elemental",
+	"name": "Summon Storm Elemental",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_summon_storm_elemental"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

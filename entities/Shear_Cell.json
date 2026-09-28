@@ -1,0 +1,171 @@
+{
+	"ability_user": [
+		"arendeth_baromancy_form_inhale",
+		"arendeth_baromancy_cyclone_grip",
+		"arendeth_baromancy_form_draft_step",
+		"arendeth_baromancy_form_gale_claw"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 0,
+		"holy": 0,
+		"parry": 8,
+		"physical": 16,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [
+			12,
+			5,
+			3,
+			15
+		],
+		"enemies": []
+	},
+	"background": {
+		"color": [
+			190,
+			215,
+			230
+		],
+		"noise": 54
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"background",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"on_destruction",
+		"position_2d",
+		"sight",
+		"statistics",
+		"temporary"
+	],
+	"corpse": [],
+	"description": "A tight pressure cell. ",
+	"fighter": {
+		"attackNames": [
+			"whirl"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					210,
+					228,
+					236
+				],
+				"delay": 0,
+				"index": 3433
+			},
+			{
+				"color": [
+					210,
+					228,
+					236
+				],
+				"delay": 0,
+				"index": 3434
+			},
+			{
+				"color": [
+					210,
+					228,
+					236
+				],
+				"delay": 0,
+				"index": 3435
+			},
+			{
+				"color": [
+					210,
+					228,
+					236
+				],
+				"delay": 0,
+				"index": 3436
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 40,
+	"id": "arendeth_baromancy_shear_cell",
+	"minimap_pixel": [
+		170,
+		200,
+		220
+	],
+	"moveable": {
+		"speed": 0.6000000238418579
+	},
+	"name": "Shear Cell",
+	"on_destruction": {
+		"abilities": [],
+		"change_entities_globally": null,
+		"change_weather": null,
+		"destroy_entities_globally": [],
+		"disable_day": false,
+		"disable_fatigue": false,
+		"disable_hearing": false,
+		"disable_night": false,
+		"drinkable_blood": false,
+		"enable_teleport": false,
+		"infinite_crafting_durability": false,
+		"move_player": null,
+		"recipes": [],
+		"reduce_durability_globally": 0,
+		"trigger_animation": "125",
+		"trigger_weather": null,
+		"trigger_weather_now": false
+	},
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": true
+	},
+	"statistics": {
+		"dexterity": [
+			15,
+			15
+		],
+		"endurance": [
+			18,
+			18
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 5.0,
+		"hearing": 35,
+		"intelligence": [
+			10,
+			10
+		],
+		"magic_power": 10,
+		"sneaking": 14,
+		"strength": [
+			5,
+			5
+		],
+		"willpower": [
+			30,
+			30
+		]
+	},
+	"temporary": 10.0
+}

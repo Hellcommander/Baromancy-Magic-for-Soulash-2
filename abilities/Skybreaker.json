@@ -1,0 +1,32 @@
+{
+	"animation": "arendeth_baromancy_skybreaker",
+	"cast_time": 1.100000023841858,
+	"cooldown": 20.0,
+	"cost": {
+		"health": 0,
+		"stamina": 16
+	},
+	"description": "Implode the air on one target. Deals ::damage ::damage_type, shreds ::damage_type resistance, and applies Vulnerable (cannot parry or dodge). Applies its effect per stack of shear.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			16,
+			26
+		],
+		"damage_type": "physical",
+		"effect_per_stack": "arendeth_baromancy_Arendeth_wind_shear",
+		"magic_power_damage": 1.350000023841858,
+		"resistance": -5,
+		"vulnerable": 2
+	},
+	"id": "arendeth_baromancy_skybreaker",
+	"image": 1,
+	"name": "Skybreaker",
+	"range": 5,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

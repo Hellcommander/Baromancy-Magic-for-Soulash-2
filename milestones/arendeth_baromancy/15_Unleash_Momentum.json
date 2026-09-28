@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_unleash_momentum",
+	"name": "Unleash Momentum",
+	"requirements": {
+		"milestones": [],
+		"skill": 15
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_unleash_momentum"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

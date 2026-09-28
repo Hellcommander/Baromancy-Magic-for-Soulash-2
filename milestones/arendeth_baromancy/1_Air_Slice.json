@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_air_slice",
+	"name": "Air Slice",
+	"requirements": {
+		"milestones": [],
+		"skill": 1
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_air_slice"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

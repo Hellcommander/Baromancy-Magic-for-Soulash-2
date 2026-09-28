@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_skybreaker",
+	"name": "Skybreaker",
+	"requirements": {
+		"milestones": [],
+		"skill": 42
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_skybreaker"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

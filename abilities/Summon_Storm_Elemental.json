@@ -1,0 +1,27 @@
+{
+	"animation": "arendeth_baromancy_summon_storm_elemental",
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 0,
+		"item": "arendeth_baromancy_air_elemental",
+		"stamina": 20
+	},
+	"description": "Consume your Air Elemental to bind a Storm Elemental. Lightning, Lightning Nova, and a heavier thunderstorm mass.",
+	"duration": 50.0,
+	"effects": {
+		"summon_count": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_baromancy_storm_elemental"
+	},
+	"id": "arendeth_baromancy_summon_storm_elemental",
+	"image": 4,
+	"name": "Summon Storm Elemental",
+	"range": 4,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"utility": 4
+	},
+	"target": "actor"
+}

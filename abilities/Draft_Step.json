@@ -1,0 +1,23 @@
+{
+	"animation": "arendeth_baromancy_zephyr_step",
+	"cast_time": 0.20000000298023224,
+	"cooldown": 5.0,
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"description": "Slip through a pressure drop up to 4 tiles. Your body is the wind — this is how you move in a fight.",
+	"duration": 0.5,
+	"effects": {
+		"lunge": 4
+	},
+	"id": "arendeth_baromancy_form_draft_step",
+	"image": 7,
+	"name": "Draft Step",
+	"range": 4,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"utility": 2
+	},
+	"target": "tile"
+}

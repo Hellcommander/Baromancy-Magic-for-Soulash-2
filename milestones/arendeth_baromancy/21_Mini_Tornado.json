@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_mini_tornado",
+	"name": "Mini Tornado",
+	"requirements": {
+		"milestones": [],
+		"skill": 21
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_mini_tornado"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

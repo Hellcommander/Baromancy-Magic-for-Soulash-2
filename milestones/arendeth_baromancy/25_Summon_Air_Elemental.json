@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_summon_air_elemental",
+	"name": "Summon Air Elemental",
+	"requirements": {
+		"milestones": [],
+		"skill": 25
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_summon_air_elemental"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

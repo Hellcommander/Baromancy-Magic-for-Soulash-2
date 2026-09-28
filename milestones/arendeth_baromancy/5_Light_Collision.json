@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_light_collision",
+	"name": "Light Collision",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_light_collision"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

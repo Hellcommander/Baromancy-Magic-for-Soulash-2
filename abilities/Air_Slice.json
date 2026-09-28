@@ -1,0 +1,31 @@
+{
+	"animation": "arendeth_baromancy_air_slice",
+	"cast_time": 0.4000000059604645,
+	"cooldown": 3.0,
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"description": "A thin pressure blade. Deals physical damage and applies Momentum and Shear.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			2,
+			6
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 1.0,
+		"stacker": "arendeth_baromancy_Arendeth_wind_shear",
+		"stacker_count": 1
+	},
+	"id": "arendeth_baromancy_air_slice",
+	"image": 0,
+	"name": "Air Slice",
+	"range": 4,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "health"
+}

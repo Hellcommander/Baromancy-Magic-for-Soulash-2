@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_light_pierce",
+	"name": "Light Pierce",
+	"requirements": {
+		"milestones": [],
+		"skill": 9
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_baromancy_light_pierce"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

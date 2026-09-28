@@ -1,0 +1,26 @@
+{
+	"animation": "arendeth_baromancy_summon_air_elemental",
+	"cast_time": 0.800000011920929,
+	"cooldown": 40.0,
+	"cost": {
+		"health": 0,
+		"stamina": 16
+	},
+	"description": "Bind a swirling air elemental — the same wind-mass found in the wild — to fight beside you.",
+	"duration": 30.0,
+	"effects": {
+		"summon_count": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_baromancy_air_elemental"
+	},
+	"id": "arendeth_baromancy_summon_air_elemental",
+	"image": 2,
+	"name": "Summon Air Elemental",
+	"range": 4,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"utility": 3
+	},
+	"target": "tile"
+}

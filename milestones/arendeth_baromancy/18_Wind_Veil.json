@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_wind_veil",
+	"name": "Wind Veil",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_baromancy_wind_veil"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

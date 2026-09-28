@@ -1,0 +1,32 @@
+{
+	"animation": "arendeth_baromancy_cyclone_grip",
+	"cast_time": 0.4000000059604645,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "Yank the target one tile toward you with a low-pressure hook. Deals ::damage ::damage_type and applies Shear.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 0.8500000238418579,
+		"pull_target": 1,
+		"stacker": "arendeth_baromancy_Arendeth_wind_shear",
+		"stacker_count": 1
+	},
+	"id": "arendeth_baromancy_cyclone_grip",
+	"image": 4,
+	"name": "Cyclone Grip",
+	"range": 5,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "health"
+}

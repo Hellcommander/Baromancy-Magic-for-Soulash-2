@@ -1,0 +1,31 @@
+{
+	"animation": "arendeth_baromancy_wind_lance",
+	"cast_time": 0.699999988079071,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"description": "A high-speed pressure needle. Deals ::damage ::damage_type through the first foe. ",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			6,
+			11
+		],
+		"damage_type": "physical",
+		"effect_per_stack": "arendeth_baromancy_Arendeth_momentum",
+		"magic_power_damage": 1.149999976158142,
+		"pierce": 1
+	},
+	"id": "arendeth_baromancy_wind_lance",
+	"image": 6,
+	"name": "Wind Lance",
+	"range": 7,
+	"skill": "arendeth_baromancy",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "line"
+}
