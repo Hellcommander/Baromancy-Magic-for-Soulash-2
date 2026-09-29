@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 3
 	},
-	"description": "Your wind-body rakes the target. Deals ::damage ::damage_type, knocks back ::knockback tile, and applies Shear.",
+	"description": "Your wind-body rakes the target. Deals ::damage ::damage_type, inflicts 2 stacks of bleed per damage, knocks back ::knockback tile, and applies Shear.",
 	"duration": 0.0,
 	"effects": {
 		"damage": [
@@ -16,6 +16,7 @@
 		"damage_type": "physical",
 		"increase_effect": 100,
 		"magic_power_damage": 1.0,
+		"bleed_per_damage": 2.0,
 		"stacker": "arendeth_baromancy_arendeth_baromancy_knockback",
 		"stacker_count": 1
 	},

@@ -1,0 +1,21 @@
+{
+	"animation": "",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"knockback_damage_percent": 0.5,
+		"magic_power_damage": 1.0
+	},
+	"id": "arendeth_baromancy_Knockback_Bonus_Damage",
+	"image": 832,
+	"name": "Knockback Bonus Damage",
+	"range": 0,
+	"skill": "arendeth_baromancy",
+	"target": "actor"
+}

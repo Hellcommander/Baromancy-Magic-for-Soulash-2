@@ -6,21 +6,24 @@
 		"health": 0,
 		"stamina": 7
 	},
-	"description": "Explode outward as a shear ring. Deals ::damage ::damage_type in ::aoe_range tiles, knocks back ::knockback, and applies Shear. Applies 2 more damage per stack of shear and avoids damaging party members.",
-	"duration": 0.0,
+	"description": "Explode outward as a shear ring. Deals ::damage ::damage_type in ::aoe_range tiles, 1 stack of bleed per damage, knocks back ::knockback, and applies Shear. Applies 2 more damage per stack of shear and avoids damaging party members.",
+	"duration": 3.0,
 	"effects": {
 		"aoe_range": 3,
 		"aoe_shape": 1,
+		"bleed_per_damage": 1.0,
 		"damage": [
 			6,
 			12
 		],
-		"damage_per_stacks": 2,
+		"damage_per_stacks": 1,
 		"damage_type": "physical",
 		"ignore_party": 1,
+		"knockback": 2,
 		"knockback_damage_percent": 25.0,
 		"magic_power_damage": 1.100000023841858,
-		"stacker": "arendeth_baromancy_arendeth_baromancy_knockback",
+		"stacker": "arendeth_baromancy_momentum",
+		"stacker": "arendeth_baromancy_shear",
 		"stacker_count": 2
 	},
 	"id": "arendeth_baromancy_form_shear_nova",

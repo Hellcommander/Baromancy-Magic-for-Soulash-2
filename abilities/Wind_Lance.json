@@ -6,15 +6,16 @@
 		"health": 0,
 		"stamina": 8
 	},
-	"description": "A high-speed pressure needle. Deals ::damage ::damage_type through the first foe. ",
+	"description": "A high-speed pressure needle. Deals ::damage ::damage_type piecing through foes while applying 1 stack of bleed per damage . ",
 	"duration": 0.0,
 	"effects": {
 		"damage": [
 			6,
 			11
 		],
+		"bleed_per_damage": 1.0,
 		"damage_type": "physical",
-		"effect_per_stack": "arendeth_baromancy_Arendeth_momentum",
+		"effect_per_stack": "arendeth_baromancy_momentum",
 		"magic_power_damage": 1.149999976158142,
 		"pierce": 1
 	},
@@ -24,8 +25,8 @@
 	"range": 7,
 	"skill": "arendeth_baromancy",
 	"slots": {
-		"offensive": 1,
-		"utility": 1
+		"offensive": 2,
+		"utility": 2
 	},
 	"target": "line"
 }
