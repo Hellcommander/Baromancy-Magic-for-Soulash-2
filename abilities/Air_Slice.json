@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 4
 	},
-	"description": "A thin pressure blade. Deals physical damage, inflicts 1 stack of bleed per damage, and applies Momentum and Shear.",
+	"description": "A thin pressure blade. Deals ::damage ::damage_type damage, inflicts 1 stack of bleed per damage, and applies Momentum and Shear.",
 	"duration": 0.0,
 	"effects": {
 		"damage": [
