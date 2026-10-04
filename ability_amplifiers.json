@@ -1,195 +1,171 @@
 [
-	{
-		"id": "arendeth_baromancy_shear_edge",
-		"name": "Shear Edge",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "knockback",
-				"value": 1
-			}
-		],
-		"image": 0,
-		"description": "The socketed ability knocks the target back 1 tile."
-	},
-	{
-		"id": "arendeth_baromancy_wall_collision",
-		"name": "Wall Collision",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "knockback_damage_percent",
-				"value": 20
-			}
-		],
-		"image": 1,
-		"description": "The socketed ability deals 20% bonus damage when knockback hits a wall or body."
-	},
-	{
-		"id": "arendeth_baromancy_unleash_momentum",
-		"name": "Unleash Momentum",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "effect_per_stack",
-				"value": "arendeth_baromancy_momentum",
-				"secondary_value": "stun",
-				"third_value": 0.1
-			}
-		],
-		"image": 2,
-		"description": "Consume Momentum on the target: stun 0.1 turn per stack."
-	},
-	{
-		"id": "arendeth_baromancy_sustained_cell",
-		"name": "Sustained Cell",
-		"type": "utility",
-		"bonuses": [],
-		"image": 3,
-		"description": "The socketed ability lasts 2 turns longer (Veil, Barrier, Eye, Tornado).",
-		"duration": 2.0
-	},
-	{
-		"id": "arendeth_baromancy_pierce_winds",
-		"name": "Pierce Winds",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "pierce",
-				"value": 1
-			}
-		],
-		"image": 4,
-		"description": "The first target does not break the line."
-	},
-	{
-		"id": "arendeth_baromancy_collapse_shear",
-		"name": "Collapse Shear",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "effect_per_stack",
-				"value": "arendeth_baromancy_shear",
-				"secondary_value": "vulnerable",
-				"third_value": 1
-			}
-		],
-		"image": 5,
-		"description": "Consume Shear stacks on the target to apply Vulnerable (cannot parry or dodge)."
-	},
-	{
-		"id": "arendeth_baromancy_gale_reach",
-		"name": "Gale Reach",
-		"type": "utility",
-		"bonuses": [],
-		"image": 6,
-		"range": 2,
-		"description": "The socketed ability gains +2 range."
-	},
-	{
-		"id": "arendeth_baromancy_overpressure",
-		"name": "Overpressure",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "damage_bonus_percent",
-				"value": 0.12
-			}
-		],
-		"image": 7,
-		"description": "The socketed ability deals 12% more damage."
-	},
-	{
-		"id": "arendeth_baromancy_shear_tick",
-		"name": "Shear Tick",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "stacker",
-				"value": "arendeth_baromancy_shear",
-				"secondary_value": 1
-			}
-		],
-		"image": 8,
-		"description": "The edge nicks. Apply 1 Shear on the socketed hit."
-	},
-	{
-		"id": "arendeth_baromancy_momentum_spark",
-		"name": "Momentum Spark",
-		"type": "utility",
-		"bonuses": [
-			{
-				"effect": "stacker_count",
-				"value": 1
-			}
-		],
-		"image": 9,
-		"description": "The socketed ability applies 1 extra Momentum to the target."
-	},
-	{
-		"id": "arendeth_baromancy_draft_reach",
-		"name": "Draft Reach",
-		"type": "utility",
-		"bonuses": [],
-		"image": 10,
-		"range": 1,
-		"description": "A longer throw. +1 range."
-	},
-	{
-		"id": "arendeth_baromancy_light_collision",
-		"name": "Light Collision",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "knockback_damage_percent",
-				"value": 10
-			}
-		],
-		"image": 11,
-		"description": "10% bonus damage when knockback hits a wall or body."
-	},
-	{
-		"id": "arendeth_baromancy_linger_draft",
-		"name": "Linger Draft",
-		"type": "utility",
-		"bonuses": [],
-		"image": 12,
-		"description": "Veils, cells, and storm constructs last 1 turn longer.",
-		"duration": 1.0
-	},
-	{
-		"id": "arendeth_baromancy_quick_cut",
-		"name": "Quick Cut",
-		"type": "utility",
-		"bonuses": [],
-		"image": 13,
-		"cast_time": -0.1,
-		"description": "The blade of air forms faster. -0.1 cast time."
-	},
-	{
-		"id": "arendeth_baromancy_light_pierce",
-		"name": "Light Pierce",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "pierce",
-				"value": 1
-			}
-		],
-		"image": 14,
-		"description": "The first target does not break the line."
-	},
-	{
-		"id": "arendeth_baromancy_overbreeze",
-		"name": "Overbreeze",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "damage_bonus_percent",
-				"value": 0.05
-			}
-		],
-		"image": 15,
-		"description": "The socketed ability deals 5% more damage."
-	}
+  {
+    "id": "arendeth_baromancy_shear_edge",
+    "name": "Shear Edge",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "knockback", "value": 1 }
+    ],
+    "image": 0,
+    "description": "The socketed ability knocks the target back 1 tile."
+  },
+
+  {
+    "id": "arendeth_baromancy_wall_collision",
+    "name": "Wall Collision",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "knockback_damage_percent", "value": 20 }
+    ],
+    "image": 1,
+    "description": "The socketed ability deals 20% bonus damage when knockback hits a wall or body."
+  },
+
+  {
+    "id": "arendeth_baromancy_light_collision",
+    "name": "Light Collision",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "knockback_damage_percent", "value": 10 }
+    ],
+    "image": 11,
+    "description": "10% bonus damage when knockback hits a wall or body."
+  },
+
+  {
+    "id": "arendeth_baromancy_unleash_momentum",
+    "name": "Unleash Momentum",
+    "type": "offensive",
+    "bonuses": [
+      {
+        "effect": "effect_per_stack",
+        "value": "arendeth_baromancy_momentum",
+        "secondary_value": "damage_bonus_percent",
+        "third_value": 0.05
+      }
+    ],
+    "image": 2,
+    "description": "Consume Momentum on the target: +5% damage per stack."
+  },
+
+  {
+    "id": "arendeth_baromancy_shear_tick",
+    "name": "Shear Tick",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "stacker", "value": "arendeth_baromancy_shear", "secondary_value": 1 }
+    ],
+    "image": 8,
+    "description": "The edge nicks. Apply 1 Shear on the socketed hit."
+  },
+
+  {
+    "id": "arendeth_baromancy_shear_rend",
+    "name": "Shear Rend",
+    "type": "offensive",
+    "bonuses": [
+      {
+        "effect": "effect_per_stack",
+        "value": "arendeth_baromancy_shear",
+        "secondary_value": "bleed",
+        "third_value": 1
+      }
+    ],
+    "image": 5,
+    "description": "Consume Shear stacks on the target to apply Bleed (1 per stack)."
+  },
+
+  {
+    "id": "arendeth_baromancy_windline_pierce",
+    "name": "Windline Pierce",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "pierce", "value": 1 }
+    ],
+    "image": 4,
+    "description": "The first target does not break the line."
+  },
+
+  {
+    "id": "arendeth_baromancy_pressure_spike",
+    "name": "Pressure Spike",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "damage_bonus_percent", "value": 0.12 }
+    ],
+    "image": 7,
+    "description": "The socketed ability deals 12% more damage."
+  },
+
+  {
+    "id": "arendeth_baromancy_airburst",
+    "name": "Airburst",
+    "type": "offensive",
+    "bonuses": [
+      { "effect": "on_attack_cast", "value": "arendeth_baromancy_airburst_aoe" }
+    ],
+    "image": 16,
+    "description": "On hit, cast a small airburst around the landing tile."
+  },
+
+  {
+    "id": "arendeth_baromancy_sustained_cell",
+    "name": "Sustained Cell",
+    "type": "utility",
+    "bonuses": [],
+    "image": 3,
+    "duration": 2.0,
+    "description": "The socketed ability lasts 2 turns longer (Veil, Barrier, Eye, Tornado)."
+  },
+
+  {
+    "id": "arendeth_baromancy_linger_draft",
+    "name": "Linger Draft",
+    "type": "utility",
+    "bonuses": [],
+    "image": 12,
+    "duration": 1.0,
+    "description": "Veils, cells, and storm constructs last 1 turn longer."
+  },
+
+  {
+    "id": "arendeth_baromancy_gale_reach",
+    "name": "Gale Reach",
+    "type": "utility",
+    "bonuses": [],
+    "image": 6,
+    "range": 2,
+    "description": "The socketed ability gains +2 range."
+  },
+
+  {
+    "id": "arendeth_baromancy_draft_reach",
+    "name": "Draft Reach",
+    "type": "utility",
+    "bonuses": [],
+    "image": 10,
+    "range": 1,
+    "description": "A longer throw. +1 range."
+  },
+
+  {
+    "id": "arendeth_baromancy_quick_cut",
+    "name": "Quick Cut",
+    "type": "utility",
+    "bonuses": [],
+    "image": 13,
+    "cast_time": -0.1,
+    "description": "The blade of air forms faster. -0.1 cast time."
+  },
+
+  {
+    "id": "arendeth_baromancy_momentum_spark",
+    "name": "Momentum Spark",
+    "type": "utility",
+    "bonuses": [
+      { "effect": "stacker_count", "value": 1 }
+    ],
+    "image": 9,
+    "description": "The socketed ability applies 1 extra Momentum to the target."
+  }
 ]

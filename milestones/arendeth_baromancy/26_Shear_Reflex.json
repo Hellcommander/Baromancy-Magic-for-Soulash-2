@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_shear_reflex",
+	"name": "Shear Reflex",
+	"requirements": {
+		"milestones": [],
+		"skill": 26
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_shear_reflex"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

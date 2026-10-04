@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_cyclone_heart",
+	"name": "Cyclone Heart",
+	"requirements": {
+		"milestones": [],
+		"skill": 33
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_cyclone_heart"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

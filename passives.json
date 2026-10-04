@@ -4,65 +4,32 @@
 		"name": "Baromancy Mastery",
 		"image": 0,
 		"effects": [
-			{
-				"effect": "statistic_percent",
-				"value": "strength",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "dexterity",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "endurance",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "intelligence",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "willpower",
-				"secondary_value": 0.1
-			}
+			{ "effect": "statistic_percent", "value": "strength", "secondary_value": 0.1 },
+			{ "effect": "statistic_percent", "value": "dexterity", "secondary_value": 0.1 },
+			{ "effect": "statistic_percent", "value": "endurance", "secondary_value": 0.1 },
+			{ "effect": "statistic_percent", "value": "intelligence", "secondary_value": 0.1 },
+			{ "effect": "statistic_percent", "value": "willpower", "secondary_value": 0.1 }
 		]
 	},
+	
 	{
 		"id": "arendeth_baromancy_aerodynamic_flow",
 		"name": "Aerodynamic Flow",
 		"image": 1,
 		"effects": [
-			{
-				"effect": "move_speed",
-				"value": -0.1
-			},
-			{
-				"effect": "movement_stamina",
-				"value": -1.0
-			},
-			{
-				"effect": "on_attack_stack",
-				"value": "arendeth_baromancy_momentum"
-			}
+			{ "effect": "move_speed", "value": -0.1 },
+			{ "effect": "movement_stamina", "value": -1.0 },
+			{ "effect": "on_attack_apply_stack", "value": "arendeth_baromancy_momentum" }
 		]
 	},
+	
 	{
 		"id": "arendeth_baromancy_stormborn_reflexes",
 		"name": "Stormborn Reflexes",
 		"image": 2,
 		"effects": [
-			{
-				"effect": "dodge",
-				"value": 0.1
-			},
-			{
-				"effect": "bonus_attack",
-				"value": 0.1
-			}
+			{ "effect": "dodge", "value": 0.1 },
+			{ "effect": "bonus_attack", "value": 0.05 }
 		]
 	},
 	{
@@ -70,10 +37,7 @@
 		"name": "Pressure Mastery",
 		"image": 3,
 		"effects": [
-			{
-				"effect": "bonus_knockback_damage_percent",
-				"value": 0.35
-			}
+			{ "effect": "bonus_knockback_damage_percent", "value": 0.20 }
 		]
 	},
 	{
@@ -81,14 +45,100 @@
 		"name": "Momentum Overflow",
 		"image": 4,
 		"effects": [
-			{
-				"effect": "max_stamina",
-				"value": 15
-			},
+			{ "effect": "max_stamina", "value": 15 },
 			{
 				"effect": "stamina_on_stack_consume",
-				"value": "arendeth_baromancy_momentum"
+				"value": "arendeth_baromancy_momentum",
+				"secondary_value": 3
+			}
+		]
+	},
+	{
+		"id": "arendeth_baromancy_turbulence_field",
+		"name": "Turbulence Field",
+		"image": 2,
+		"effects": [
+			{ "effect": "slow_on_hit", "value": 0.1 }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_shear_reflex",
+		"name": "Shear Reflex",
+		"image": 2,
+		"effects": [
+			{ "effect": "dodge", "value": 0.05 },
+			{ "effect": "on_dodge_apply_stack", "value": "arendeth_baromancy_shear" }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_pressure_pulse",
+		"name": "Pressure Pulse",
+		"image": 2,
+		"effects": [
+			{ "effect": "on_hit_knockback", "value": 1 }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_gale_instinct",
+		"name": "Gale Instinct",
+		"image": 2,
+		"effects": [
+			{ "effect": "cast_time_percent", "value": -0.1 }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_shear_barrier",
+		"name": "Shear Barrier",
+		"image": 2,
+		"effects": [
+			{ "effect": "damage_reduction_percent", "value": 0.05 },
+			{ "effect": "on_hit_apply_stack", "value": "arendeth_baromancy_shear" }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_cyclone_heart",
+		"name": "Cyclone Heart",
+		"image": 26,
+		"effects": [
+			{ "effect": "bonus_attack", "value": 0.05 },
+			{ "effect": "move_speed", "value": -0.05 }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_draft_shield",
+		"name": "Draft Shield",
+		"image": 27,
+		"effects": [
+			{ "effect": "block", "value": 0.05 }
+		]
+	},
+	{
+		"id": "arendeth_baromancy_shear_resonance",
+		"name": "Shear Resonance",
+		"image": 28,
+		"effects": [
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_baromancy_shear",
+				"secondary_value": "damage_bonus_percent",
+				"third_value": 0.02
+			}
+		]
+	},
+	{
+		"id": "arendeth_baromancy_momentum_surge",
+		"name": "Momentum Surge",
+		"image": 24,
+		"effects": [
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_baromancy_momentum",
+				"secondary_value": "move_speed",
+				"third_value": -0.02
 			}
 		]
 	}
+	
+	
+	
 ]

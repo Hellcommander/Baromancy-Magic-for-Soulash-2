@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_shear_resonance",
+	"name": "Shear Resonance",
+	"requirements": {
+		"milestones": [],
+		"skill": 37
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_shear_resonance"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

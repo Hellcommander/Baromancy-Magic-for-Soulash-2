@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_aerodynamic_flow",
+	"name": "Aerodynamic Flow",
+	"requirements": {
+		"milestones": [],
+		"skill": 17
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_aerodynamic_flow"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}

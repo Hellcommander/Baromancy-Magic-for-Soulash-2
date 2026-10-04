@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_baromancy_gale_instinct",
+	"name": "Gale Instinct",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_baromancy_gale_instinct"
+		}
+	],
+	"skill_id": "arendeth_baromancy",
+	"steps": [],
+	"steps_type": 0
+}
