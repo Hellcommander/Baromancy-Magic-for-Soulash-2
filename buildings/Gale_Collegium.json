@@ -1,50 +1,47 @@
 {
-  "id": "arendeth_baromancy_hall",
-  "name": "Gale Collegium",
-  "image": 39,
-  "occupation_image": 74,
-
-  "enables": [
-    "arendeth_baromancy"
-  ],
-
-  "max": 1,
-  "tier": 3,
-  "type": "military",
-  "group": "military",
-  "allow_player": true,
-
-  "occupation": "457",
-  "occupation_per_race": {
-    "0": "457",
-    "1": "core_2_Dwarf_Wizard",
-    "2": "core_2_Elf_Wizard",
-    "4": "core_2_Goblin_Wizard",
-    "6": "core_2_Vampire_Wizard",
-    "7": "core_2_Troll_Wizard",
-    "8": "core_2_Orc_Wizard",
-    "10": "core_2_Rasimi_Wizard",
-    "23": "core_2_Reptilion_Wizard",
-    "26": "core_2_Bone_Wraith_Wizard",
-    "31": "core_2_Gnoll_Wizard",
-    "32": "core_2_Mushman_Wizard",
-    "33": "core_2_Ursan_Wizard"
-  },
-
-  "race": -1,
-
-  "workers": [1, 6],
-
-  "produces": [
-    {
-      "takes": "craftable",
-      "entities": [
-        { "id": "2006", "daily": 0.2 }
-      ]
-    }
-  ],
-
-  "required_entities": [
+	"enables": [
+		"arendeth_baromancy"
+	],
+	"id": "arendeth_baromancy_hall",
+	"image": 39,
+	"max": 1,  
+    "name": "Gale Collegium",
+	"occupation_image": 74,
+	"occupation": "Shear_Savant",
+	"occupation_per_race": {
+        "0": "Shear_Savant",
+        "1": "Shear_Savant",
+        "2": "Shear_Savant",
+        "4": "Shear_Savant",
+		"6": "Shear_Savant",
+        "7": "Shear_Savant",
+        "8": "Shear_Savant",
+        "10": "Shear_Savant",
+        "23": "Shear_Savant",
+        "26": "Shear_Savant",
+        "31": "Shear_Savant",
+        "32": "Shear_Savant",
+        "33": "Shear_Savant"
+    },
+	"produces": [
+		{
+			"entities": [
+				{
+					"daily": 0.2,
+					"id": "2006"
+				}
+			],
+			"takes": "craftable"
+		}
+	],
+	"race": "-1",
+	"tier": 3,
+	"workers": [
+		1,
+		6
+	],
+	"allow_player": true,
+	"required_entities": [
     {
       "entities": ["731"],
       "count": 4
@@ -59,7 +56,7 @@
     },
     {
       "component": "container",
-      "count": 4
+      "count": 1
     },
     {
       "component": "light_source",
@@ -69,7 +66,8 @@
       "component": "crafting_station",
       "count": 2
     }
-  ],
-
-  "min_area": 40
+	],
+	"min_area": 30,
+	"group": "military",
+	"type": "military"
 }

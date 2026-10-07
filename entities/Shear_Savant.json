@@ -2,7 +2,9 @@
 	"ability_user": [],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -40,33 +42,17 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "",
+	"description": "A Shear Savant is a Baromancer who fuses wind‑pressure magic with athletic discipline, using motion and strength to sharpen air into cutting force. They train casters to control shear currents through precise movement, balance, and physical resilience.",
 	"dialogues": [
 		"722",
 		"77"
 	],
 	"equipment": {
-		"backpack": [
-			{
-				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
-				"stack": 10
-			}
-		],
-		"left_hand": [
-			{
-				"chance": 1.0,
-				"id": "core_2_Ice_Rod",
-				"name": "Ice Rod",
-				"stack": 1
-			}
-		],
 		"right_hand": [
 			{
 				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
+				"id": "381",
+				"name": "Crystal Staff",
 				"stack": 1
 			}
 		],
@@ -104,7 +90,7 @@
 	"humanoid": {
 		"race": "2"
 	},
-	"id": "arendeth_astral_magic_Shear_Savant",
+	"id": "arendeth_baromancy_Shear_Savant",
 	"minimap_pixel": [
 		127,
 		185,
@@ -115,7 +101,7 @@
 	},
 	"name": "Shear Savant",
 	"persona": {
-		"occupation": "Shear Savant"
+		"occupation": "Shear_Savant"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,
@@ -126,10 +112,26 @@
 	"skills": {
 		"max_skill": 10,
 		"milestones": [
+			"arendeth_baromancy_air_slice",
+			"core_2_climbing",
+			"arendeth_baromancy_book_of_baromancy",
+			"arendeth_baromancy_become_air_elemental",
+			"arendeth_baromancy_pierce_winds",
+			"arendeth_baromancy_turbulence_field",
+			"arendeth_baromancy_aerodynamic_flow",
+			"arendeth_baromancy_wind_lance",
+			"arendeth_baromancy_zephyr_step",
+			"core_2_elven_feet",
+			"arendeth_baromancy_shear_edge",
+			"arendeth_baromancy_mini_tornado",
+			"arendeth_baromancy_draft_shield",
+			"arendeth_baromancy_summon_air_elemental",
+			"arendeth_baromancy_momentum_spark"
 		],
 		"min_skill": 10,
 		"skills": [
-			"arendeth_astral_magic"
+			"core_2_athletics",
+			"arendeth_baromancy"
 		]
 	},
 	"stamina": {
