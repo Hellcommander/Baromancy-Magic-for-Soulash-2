@@ -14,11 +14,9 @@
 			8
 		],
 		"damage_type": "physical",
-		"increase_effect": 100,
 		"magic_power_damage": 1.0,
-		"bleed_per_damage": 2.0,
-		"stacker": "arendeth_baromancy_arendeth_baromancy_knockback",
-		"stacker_count": "1"
+		"knockback": 2,
+		"bleed_per_damage": 2.0
 	},
 	"id": "arendeth_baromancy_form_gale_claw",
 	"image": 5,

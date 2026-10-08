@@ -14,16 +14,13 @@
 			5
 		],
 		"damage_type": "physical",
-		"increase_effect": 100,
-		"knockback": 2,
-		"magic_power_damage": 0.8500000238418579,
-		"stacker": "arendeth_baromancy_arendeth_baromancy_knockback",
-		"stacker_count": "1"
+		"knockback": 4,
+		"magic_power_damage": 0.8500000238418579
 	},
 	"id": "arendeth_baromancy_gust_push",
 	"image": 1,
 	"name": "Gust Push",
-	"range": 4,
+	"range": 5,
 	"skill": "arendeth_baromancy",
 	"slots": {
 		"offensive": 2,
