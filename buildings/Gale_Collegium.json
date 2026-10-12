@@ -1,72 +1,15 @@
 {
-	"enables": [
-		"arendeth_baromancy"
-	],
+	"enables": ["arendeth_baromancy"],
 	"id": "arendeth_baromancy_hall",
 	"image": 39,
-	"max": 1,  
-    "name": "Gale Collegium",
+	"max": 1,
+	"name": "Gale Collegium",
 	"occupation_image": 74,
 	"occupation": "Shear_Savant",
-	"occupation_per_race": {
-        "0": "Shear_Savant",
-        "1": "Shear_Savant",
-        "2": "Shear_Savant",
-        "4": "Shear_Savant",
-		"6": "Shear_Savant",
-        "7": "Shear_Savant",
-        "8": "Shear_Savant",
-        "10": "Shear_Savant",
-        "23": "Shear_Savant",
-        "26": "Shear_Savant",
-        "31": "Shear_Savant",
-        "32": "Shear_Savant",
-        "33": "Shear_Savant"
-    },
-	"produces": [
-		{
-			"entities": [
-				{
-					"daily": 0.2,
-					"id": "2006"
-				}
-			],
-			"takes": "craftable"
-		}
-	],
 	"race": "-1",
 	"tier": 3,
-	"workers": [
-		1,
-		6
-	],
+	"workers": [1, 6],
 	"allow_player": true,
-	"required_entities": [
-    {
-      "entities": ["731"],
-      "count": 4
-    },
-    {
-      "entities": ["291", "537"],
-      "count": 4
-    },
-    {
-      "component": "resting_place",
-      "count": 6
-    },
-    {
-      "component": "container",
-      "count": 1
-    },
-    {
-      "component": "light_source",
-      "count": 4
-    },
-    {
-      "component": "crafting_station",
-      "count": 2
-    }
-	],
 	"min_area": 30,
 	"group": "military",
 	"type": "military"
