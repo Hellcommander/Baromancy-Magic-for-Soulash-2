@@ -13,7 +13,7 @@
 		"magic_power_damage": 1.0
 	},
 	"id": "arendeth_baromancy_Knockback_Bonus_Damage",
-	"image": 832,
+	"image": 11,
 	"name": "Knockback Bonus Damage",
 	"range": 0,
 	"skill": "arendeth_baromancy",

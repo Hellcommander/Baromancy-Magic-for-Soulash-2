@@ -20,7 +20,7 @@
 		"stacker_count": 1
 	},
 	"id": "arendeth_baromancy_form_inhale",
-	"image": 0,
+	"image": 10,
 	"name": "Inhale",
 	"range": 6,
 	"skill": "arendeth_baromancy",

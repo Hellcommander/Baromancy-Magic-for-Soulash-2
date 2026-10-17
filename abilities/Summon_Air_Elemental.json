@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 16
 	},
-	"description": "Bind a swirling air elemental — the same wind-mass found in the wild — to fight beside you.",
+	"description": "Bind a swirling air elemental  -  the same wind-mass found in the wild  -  to fight beside you.",
 	"duration": 30.0,
 	"effects": {
 		"summon_count": 1
@@ -15,7 +15,7 @@
 		"summon": "arendeth_baromancy_air_elemental"
 	},
 	"id": "arendeth_baromancy_summon_air_elemental",
-	"image": 2,
+	"image": 16,
 	"name": "Summon Air Elemental",
 	"range": 4,
 	"skill": "arendeth_baromancy",

@@ -42,7 +42,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "A Shear Savant is a Baromancer who fuses wind‑pressure magic with athletic discipline, using motion and strength to sharpen air into cutting force. They train casters to control shear currents through precise movement, balance, and physical resilience.",
+	"description": "A Shear Savant is a Baromancer who fuses wind-pressure magic with athletic discipline, using motion and strength to sharpen air into cutting force. They train casters to control shear currents through precise movement, balance, and physical resilience.",
 	"dialogues": [
 		"722",
 		"77"
@@ -76,12 +76,12 @@
 		"frames": [
 			{
 				"color": [
-					127,
-					185,
-					85
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 148
+				"index": 6
 			}
 		],
 		"random_frame_start": false

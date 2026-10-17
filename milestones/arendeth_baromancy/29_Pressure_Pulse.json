@@ -1,13 +1,13 @@
 {
-	"id": "arendeth_baromancy_shear_reflex",
-	"name": "Shear Reflex",
+	"id": "arendeth_baromancy_pressure_pulse",
+	"name": "Pressure Pulse",
 	"requirements": {
 		"milestones": [],
 		"skill": 29
 	},
 	"rewards": [
 		{
-			"passive": "arendeth_baromancy_shear_reflex"
+			"passive": "arendeth_baromancy_pressure_pulse"
 		}
 	],
 	"skill_id": "arendeth_baromancy",

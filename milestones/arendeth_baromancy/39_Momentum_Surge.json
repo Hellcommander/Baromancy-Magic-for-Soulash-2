@@ -1,9 +1,9 @@
 {
 	"id": "arendeth_baromancy_momentum_surge",
-	"name": "Shear Resonance",
+	"name": "Momentum Surge",
 	"requirements": {
 		"milestones": [],
-		"skill": 37
+		"skill": 39
 	},
 	"rewards": [
 		{

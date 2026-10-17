@@ -1,16 +1,31 @@
 {
-	"enables": ["arendeth_baromancy"],
+	"enables": [
+		"arendeth_baromancy"
+	],
 	"id": "arendeth_baromancy_hall",
 	"image": 39,
 	"max": 1,
 	"name": "Gale Collegium",
 	"occupation_image": 74,
-	"occupation": "Shear_Savant",
+	"occupation": "arendeth_baromancy_Shear_Savant",
 	"race": "-1",
 	"tier": 3,
-	"workers": [1, 6],
+	"workers": [
+		1,
+		6
+	],
 	"allow_player": true,
 	"min_area": 30,
 	"group": "military",
-	"type": "military"
+	"type": "military",
+	"occupation_per_race": {
+		"2": "arendeth_baromancy_Shear_Savant",
+		"0": "arendeth_baromancy_Shear_Savant_Human",
+		"1": "arendeth_baromancy_Shear_Savant_Dwarf",
+		"4": "arendeth_baromancy_Shear_Savant_Goblin",
+		"7": "arendeth_baromancy_Shear_Savant_Troll",
+		"8": "arendeth_baromancy_Shear_Savant_Orc",
+		"23": "arendeth_baromancy_Shear_Savant_Reptilion",
+		"6": "arendeth_baromancy_Shear_Savant_Vampire"
+	}
 }

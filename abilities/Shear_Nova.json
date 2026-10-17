@@ -22,12 +22,11 @@
 		"knockback": 2,
 		"knockback_damage_percent": 25.0,
 		"magic_power_damage": 1.100000023841858,
-		"stacker": "arendeth_baromancy_momentum",
 		"stacker": "arendeth_baromancy_shear",
 		"stacker_count": 2
 	},
 	"id": "arendeth_baromancy_form_shear_nova",
-	"image": 1,
+	"image": 13,
 	"name": "Shear Nova",
 	"range": 0,
 	"skill": "arendeth_baromancy",

@@ -20,7 +20,7 @@
 		"pierce": 1
 	},
 	"id": "arendeth_baromancy_wind_lance",
-	"image": 6,
+	"image": 20,
 	"name": "Wind Lance",
 	"range": 7,
 	"skill": "arendeth_baromancy",

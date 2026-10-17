@@ -17,7 +17,7 @@
 		"stacker": "arendeth_baromancy_momentum"
 	},
 	"id": "arendeth_baromancy_arendeth_baromancy_knockback",
-	"image": 64,
+	"image": 23,
 	"name": "arendeth_baromancy_knockback",
 	"range": 0,
 	"skill": "arendeth_baromancy",
