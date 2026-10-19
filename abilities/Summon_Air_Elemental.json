@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 16
 	},
-	"description": "Bind a swirling air elemental  -  the same wind-mass found in the wild  -  to fight beside you.",
+	"description": "Bind a swirling air elemental  -  the same wind-mass found in the wild  -  to fight beside you for ::duration turns.",
 	"duration": 30.0,
 	"effects": {
 		"summon_count": 1

@@ -7,7 +7,7 @@
 		"item": "arendeth_baromancy_air_elemental",
 		"stamina": 20
 	},
-	"description": "Consume your Air Elemental to bind a Storm Elemental. Lightning, Lightning Nova, and a heavier thunderstorm mass.",
+	"description": "Consume your Air Elemental to bind a Storm Elemental. Lightning, Lightning Nova, and a heavier thunderstorm mass for ::duration turns.",
 	"duration": 50.0,
 	"effects": {
 		"summon_count": 1
