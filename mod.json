@@ -1,5 +1,6 @@
 {
 	"author": "Arendeth",
+	"id": "arendeth_baromancy",
 	"description": "Baromancy: enemy Momentum and Shear stacks, wall knockback, storm cells, Gale Reach. Become Living Gale replaces your skills with a unique wind-body kit.",
 	"game_required": "0.10.0",
 	"icon": "icon.png",
